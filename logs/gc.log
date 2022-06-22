@@ -1,0 +1,112 @@
+[0.010s][debug][gc,heap] Minimum heap 10485760  Initial heap 10485760  Maximum heap 10485760
+[0.099s][debug][gc,heap] GC(0) Heap before GC invocations=0 (full 0): par new generation   total 2816K, used 2543K [0x00000007ff600000, 0x00000007ff900000, 0x00000007ff900000)
+[0.099s][debug][gc,heap] GC(0)   eden space 2560K,  99% used [0x00000007ff600000, 0x00000007ff87bc88, 0x00000007ff880000)
+[0.099s][debug][gc,heap] GC(0)   from space 256K,   0% used [0x00000007ff880000, 0x00000007ff880000, 0x00000007ff8c0000)
+[0.099s][debug][gc,heap] GC(0)   to   space 256K,   0% used [0x00000007ff8c0000, 0x00000007ff8c0000, 0x00000007ff900000)
+[0.099s][debug][gc,heap] GC(0)  concurrent mark-sweep generation total 7168K, used 0K [0x00000007ff900000, 0x0000000800000000, 0x0000000800000000)
+[0.099s][debug][gc,heap] GC(0)  Metaspace       used 587K, capacity 4535K, committed 4864K, reserved 1056768K
+[0.099s][debug][gc,heap] GC(0)   class space    used 54K, capacity 402K, committed 512K, reserved 1048576K
+[0.104s][info ][gc,heap] GC(0) ParNew: 2543K->255K(2816K)
+[0.104s][info ][gc,heap] GC(0) CMS: 0K->1578K(7168K)
+[0.104s][debug][gc,heap] GC(0) Heap after GC invocations=1 (full 0): par new generation   total 2816K, used 255K [0x00000007ff600000, 0x00000007ff900000, 0x00000007ff900000)
+[0.104s][debug][gc,heap] GC(0)   eden space 2560K,   0% used [0x00000007ff600000, 0x00000007ff600000, 0x00000007ff880000)
+[0.104s][debug][gc,heap] GC(0)   from space 256K,  99% used [0x00000007ff8c0000, 0x00000007ff8fff18, 0x00000007ff900000)
+[0.104s][debug][gc,heap] GC(0)   to   space 256K,   0% used [0x00000007ff880000, 0x00000007ff880000, 0x00000007ff8c0000)
+[0.104s][debug][gc,heap] GC(0)  concurrent mark-sweep generation total 7168K, used 1578K [0x00000007ff900000, 0x0000000800000000, 0x0000000800000000)
+[0.104s][debug][gc,heap] GC(0)  Metaspace       used 587K, capacity 4535K, committed 4864K, reserved 1056768K
+[0.104s][debug][gc,heap] GC(0)   class space    used 54K, capacity 402K, committed 512K, reserved 1048576K
+[0.104s][debug][gc,heap] GC(1) Heap before GC invocations=1 (full 0): par new generation   total 2816K, used 2379K [0x00000007ff600000, 0x00000007ff900000, 0x00000007ff900000)
+[0.104s][debug][gc,heap] GC(1)   eden space 2560K,  82% used [0x00000007ff600000, 0x00000007ff812ce8, 0x00000007ff880000)
+[0.104s][debug][gc,heap] GC(1)   from space 256K,  99% used [0x00000007ff8c0000, 0x00000007ff8fff18, 0x00000007ff900000)
+[0.104s][debug][gc,heap] GC(1)   to   space 256K,   0% used [0x00000007ff880000, 0x00000007ff880000, 0x00000007ff8c0000)
+[0.104s][debug][gc,heap] GC(1)  concurrent mark-sweep generation total 7168K, used 1578K [0x00000007ff900000, 0x0000000800000000, 0x0000000800000000)
+[0.104s][debug][gc,heap] GC(1)  Metaspace       used 587K, capacity 4535K, committed 4864K, reserved 1056768K
+[0.104s][debug][gc,heap] GC(1)   class space    used 54K, capacity 402K, committed 512K, reserved 1048576K
+[0.107s][info ][gc,heap] GC(1) ParNew: 2379K->190K(2816K)
+[0.107s][info ][gc,heap] GC(1) CMS: 1578K->3881K(7168K)
+[0.107s][debug][gc,heap] GC(1) Heap after GC invocations=2 (full 0): par new generation   total 2816K, used 190K [0x00000007ff600000, 0x00000007ff900000, 0x00000007ff900000)
+[0.107s][debug][gc,heap] GC(1)   eden space 2560K,   0% used [0x00000007ff600000, 0x00000007ff600000, 0x00000007ff880000)
+[0.107s][debug][gc,heap] GC(1)   from space 256K,  74% used [0x00000007ff880000, 0x00000007ff8af820, 0x00000007ff8c0000)
+[0.107s][debug][gc,heap] GC(1)   to   space 256K,   0% used [0x00000007ff8c0000, 0x00000007ff8c0000, 0x00000007ff900000)
+[0.107s][debug][gc,heap] GC(1)  concurrent mark-sweep generation total 7168K, used 3881K [0x00000007ff900000, 0x0000000800000000, 0x0000000800000000)
+[0.107s][debug][gc,heap] GC(1)  Metaspace       used 587K, capacity 4535K, committed 4864K, reserved 1056768K
+[0.107s][debug][gc,heap] GC(1)   class space    used 54K, capacity 402K, committed 512K, reserved 1048576K
+[0.107s][debug][gc,heap] GC(3) Heap before GC invocations=2 (full 1): par new generation   total 2816K, used 2304K [0x00000007ff600000, 0x00000007ff900000, 0x00000007ff900000)
+[0.107s][debug][gc,heap] GC(3)   eden space 2560K,  82% used [0x00000007ff600000, 0x00000007ff810ab8, 0x00000007ff880000)
+[0.107s][debug][gc,heap] GC(3)   from space 256K,  74% used [0x00000007ff880000, 0x00000007ff8af820, 0x00000007ff8c0000)
+[0.107s][debug][gc,heap] GC(3)   to   space 256K,   0% used [0x00000007ff8c0000, 0x00000007ff8c0000, 0x00000007ff900000)
+[0.107s][debug][gc,heap] GC(3)  concurrent mark-sweep generation total 7168K, used 3881K [0x00000007ff900000, 0x0000000800000000, 0x0000000800000000)
+[0.107s][debug][gc,heap] GC(3)  Metaspace       used 587K, capacity 4535K, committed 4864K, reserved 1056768K
+[0.107s][debug][gc,heap] GC(3)   class space    used 54K, capacity 402K, committed 512K, reserved 1048576K
+[0.108s][info ][gc,heap] GC(3) ParNew: 2304K->47K(2816K)
+[0.108s][info ][gc,heap] GC(3) CMS: 3881K->5929K(7168K)
+[0.108s][debug][gc,heap] GC(3) Heap after GC invocations=3 (full 1): par new generation   total 2816K, used 47K [0x00000007ff600000, 0x00000007ff900000, 0x00000007ff900000)
+[0.108s][debug][gc,heap] GC(3)   eden space 2560K,   0% used [0x00000007ff600000, 0x00000007ff600000, 0x00000007ff880000)
+[0.108s][debug][gc,heap] GC(3)   from space 256K,  18% used [0x00000007ff8c0000, 0x00000007ff8cbf40, 0x00000007ff900000)
+[0.108s][debug][gc,heap] GC(3)   to   space 256K,   0% used [0x00000007ff880000, 0x00000007ff880000, 0x00000007ff8c0000)
+[0.109s][debug][gc,heap] GC(3)  concurrent mark-sweep generation total 7168K, used 5929K [0x00000007ff900000, 0x0000000800000000, 0x0000000800000000)
+[0.109s][debug][gc,heap] GC(3)  Metaspace       used 587K, capacity 4535K, committed 4864K, reserved 1056768K
+[0.109s][debug][gc,heap] GC(3)   class space    used 54K, capacity 402K, committed 512K, reserved 1048576K
+[0.109s][debug][gc,heap] GC(4) Heap before GC invocations=3 (full 1): par new generation   total 2816K, used 2156K [0x00000007ff600000, 0x00000007ff900000, 0x00000007ff900000)
+[0.109s][debug][gc,heap] GC(4)   eden space 2560K,  82% used [0x00000007ff600000, 0x00000007ff80f308, 0x00000007ff880000)
+[0.109s][debug][gc,heap] GC(4)   from space 256K,  18% used [0x00000007ff8c0000, 0x00000007ff8cbf40, 0x00000007ff900000)
+[0.109s][debug][gc,heap] GC(4)   to   space 256K,   0% used [0x00000007ff880000, 0x00000007ff880000, 0x00000007ff8c0000)
+[0.109s][debug][gc,heap] GC(4)  concurrent mark-sweep generation total 7168K, used 5929K [0x00000007ff900000, 0x0000000800000000, 0x0000000800000000)
+[0.109s][debug][gc,heap] GC(4)  Metaspace       used 587K, capacity 4535K, committed 4864K, reserved 1056768K
+[0.109s][debug][gc,heap] GC(4)   class space    used 54K, capacity 402K, committed 512K, reserved 1048576K
+[0.109s][debug][gc,heap] GC(4) Heap after GC invocations=4 (full 1): par new generation   total 2816K, used 2156K [0x00000007ff600000, 0x00000007ff900000, 0x00000007ff900000)
+[0.109s][debug][gc,heap] GC(4)   eden space 2560K,  82% used [0x00000007ff600000, 0x00000007ff80f308, 0x00000007ff880000)
+[0.109s][debug][gc,heap] GC(4)   from space 256K,  18% used [0x00000007ff8c0000, 0x00000007ff8cbf40, 0x00000007ff900000)
+[0.109s][debug][gc,heap] GC(4)   to   space 256K,   0% used [0x00000007ff880000, 0x00000007ff880000, 0x00000007ff8c0000)
+[0.109s][debug][gc,heap] GC(4)  concurrent mark-sweep generation total 7168K, used 5929K [0x00000007ff900000, 0x0000000800000000, 0x0000000800000000)
+[0.109s][debug][gc,heap] GC(4)  Metaspace       used 587K, capacity 4535K, committed 4864K, reserved 1056768K
+[0.109s][debug][gc,heap] GC(4)   class space    used 54K, capacity 402K, committed 512K, reserved 1048576K
+[0.109s][debug][gc,heap] GC(5) Heap before GC invocations=4 (full 1): par new generation   total 2816K, used 2156K [0x00000007ff600000, 0x00000007ff900000, 0x00000007ff900000)
+[0.109s][debug][gc,heap] GC(5)   eden space 2560K,  82% used [0x00000007ff600000, 0x00000007ff80f308, 0x00000007ff880000)
+[0.109s][debug][gc,heap] GC(5)   from space 256K,  18% used [0x00000007ff8c0000, 0x00000007ff8cbf40, 0x00000007ff900000)
+[0.109s][debug][gc,heap] GC(5)   to   space 256K,   0% used [0x00000007ff880000, 0x00000007ff880000, 0x00000007ff8c0000)
+[0.109s][debug][gc,heap] GC(5)  concurrent mark-sweep generation total 7168K, used 5929K [0x00000007ff900000, 0x0000000800000000, 0x0000000800000000)
+[0.109s][debug][gc,heap] GC(5)  Metaspace       used 587K, capacity 4535K, committed 4864K, reserved 1056768K
+[0.109s][debug][gc,heap] GC(5)   class space    used 54K, capacity 402K, committed 512K, reserved 1048576K
+[0.116s][info ][gc,heap] GC(5) ParNew: 2156K->1026K(2816K)
+[0.116s][info ][gc,heap] GC(5) CMS: 5929K->6891K(7168K)
+[0.116s][debug][gc,heap] GC(5) Heap after GC invocations=4 (full 2): par new generation   total 2816K, used 1026K [0x00000007ff600000, 0x00000007ff900000, 0x00000007ff900000)
+[0.116s][debug][gc,heap] GC(5)   eden space 2560K,  40% used [0x00000007ff600000, 0x00000007ff700ab8, 0x00000007ff880000)
+[0.116s][debug][gc,heap] GC(5)   from space 256K,   0% used [0x00000007ff8c0000, 0x00000007ff8c0000, 0x00000007ff900000)
+[0.116s][debug][gc,heap] GC(5)   to   space 256K,   0% used [0x00000007ff880000, 0x00000007ff880000, 0x00000007ff8c0000)
+[0.116s][debug][gc,heap] GC(5)  concurrent mark-sweep generation total 7168K, used 6891K [0x00000007ff900000, 0x0000000800000000, 0x0000000800000000)
+[0.116s][debug][gc,heap] GC(5)  Metaspace       used 587K, capacity 4535K, committed 4864K, reserved 1056768K
+[0.116s][debug][gc,heap] GC(5)   class space    used 54K, capacity 402K, committed 512K, reserved 1048576K
+[0.116s][debug][gc,heap] GC(6) Heap before GC invocations=4 (full 2): par new generation   total 2816K, used 2107K [0x00000007ff600000, 0x00000007ff900000, 0x00000007ff900000)
+[0.116s][debug][gc,heap] GC(6)   eden space 2560K,  82% used [0x00000007ff600000, 0x00000007ff80ee70, 0x00000007ff880000)
+[0.116s][debug][gc,heap] GC(6)   from space 256K,   0% used [0x00000007ff8c0000, 0x00000007ff8c0000, 0x00000007ff900000)
+[0.116s][debug][gc,heap] GC(6)   to   space 256K,   0% used [0x00000007ff880000, 0x00000007ff880000, 0x00000007ff8c0000)
+[0.116s][debug][gc,heap] GC(6)  concurrent mark-sweep generation total 7168K, used 6891K [0x00000007ff900000, 0x0000000800000000, 0x0000000800000000)
+[0.116s][debug][gc,heap] GC(6)  Metaspace       used 588K, capacity 4535K, committed 4864K, reserved 1056768K
+[0.116s][debug][gc,heap] GC(6)   class space    used 54K, capacity 402K, committed 512K, reserved 1048576K
+[0.118s][info ][gc,heap] GC(6) ParNew: 2107K->2050K(2816K)
+[0.119s][info ][gc,heap] GC(6) CMS: 6891K->6891K(7168K)
+[0.119s][debug][gc,heap] GC(6) Heap after GC invocations=5 (full 3): par new generation   total 2816K, used 2050K [0x00000007ff600000, 0x00000007ff900000, 0x00000007ff900000)
+[0.119s][debug][gc,heap] GC(6)   eden space 2560K,  80% used [0x00000007ff600000, 0x00000007ff800b90, 0x00000007ff880000)
+[0.119s][debug][gc,heap] GC(6)   from space 256K,   0% used [0x00000007ff8c0000, 0x00000007ff8c0000, 0x00000007ff900000)
+[0.119s][debug][gc,heap] GC(6)   to   space 256K,   0% used [0x00000007ff880000, 0x00000007ff880000, 0x00000007ff8c0000)
+[0.119s][debug][gc,heap] GC(6)  concurrent mark-sweep generation total 7168K, used 6891K [0x00000007ff900000, 0x0000000800000000, 0x0000000800000000)
+[0.119s][debug][gc,heap] GC(6)  Metaspace       used 588K, capacity 4535K, committed 4864K, reserved 1056768K
+[0.119s][debug][gc,heap] GC(6)   class space    used 54K, capacity 402K, committed 512K, reserved 1048576K
+[0.119s][debug][gc,heap] GC(7) Heap before GC invocations=5 (full 3): par new generation   total 2816K, used 2050K [0x00000007ff600000, 0x00000007ff900000, 0x00000007ff900000)
+[0.119s][debug][gc,heap] GC(7)   eden space 2560K,  80% used [0x00000007ff600000, 0x00000007ff800b90, 0x00000007ff880000)
+[0.119s][debug][gc,heap] GC(7)   from space 256K,   0% used [0x00000007ff8c0000, 0x00000007ff8c0000, 0x00000007ff900000)
+[0.119s][debug][gc,heap] GC(7)   to   space 256K,   0% used [0x00000007ff880000, 0x00000007ff880000, 0x00000007ff8c0000)
+[0.119s][debug][gc,heap] GC(7)  concurrent mark-sweep generation total 7168K, used 6891K [0x00000007ff900000, 0x0000000800000000, 0x0000000800000000)
+[0.119s][debug][gc,heap] GC(7)  Metaspace       used 588K, capacity 4535K, committed 4864K, reserved 1056768K
+[0.119s][debug][gc,heap] GC(7)   class space    used 54K, capacity 402K, committed 512K, reserved 1048576K
+[0.122s][info ][gc,heap] GC(7) ParNew: 2050K->2050K(2816K)
+[0.122s][info ][gc,heap] GC(7) CMS: 6891K->6883K(7168K)
+[0.122s][debug][gc,heap] GC(7) Heap after GC invocations=6 (full 4): par new generation   total 2816K, used 2050K [0x00000007ff600000, 0x00000007ff900000, 0x00000007ff900000)
+[0.122s][debug][gc,heap] GC(7)   eden space 2560K,  80% used [0x00000007ff600000, 0x00000007ff800b90, 0x00000007ff880000)
+[0.122s][debug][gc,heap] GC(7)   from space 256K,   0% used [0x00000007ff8c0000, 0x00000007ff8c0000, 0x00000007ff900000)
+[0.122s][debug][gc,heap] GC(7)   to   space 256K,   0% used [0x00000007ff880000, 0x00000007ff880000, 0x00000007ff8c0000)
+[0.122s][debug][gc,heap] GC(7)  concurrent mark-sweep generation total 7168K, used 6883K [0x00000007ff900000, 0x0000000800000000, 0x0000000800000000)
+[0.122s][debug][gc,heap] GC(7)  Metaspace       used 588K, capacity 4535K, committed 4864K, reserved 1056768K
+[0.122s][debug][gc,heap] GC(7)   class space    used 54K, capacity 402K, committed 512K, reserved 1048576K
+[0.146s][info ][gc,heap] GC(8) Old: 6883K->6880K(7168K)
